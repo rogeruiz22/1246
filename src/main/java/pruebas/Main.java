@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://login.salesforce.com");
+		driver.get("https://login.salesforce.cz");
 		
 		driver.quit();
 	}
