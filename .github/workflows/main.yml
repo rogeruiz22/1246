@@ -21,7 +21,7 @@ jobs:
            java-version: 1.8
                 
       - name: Test with Maven
-        run: pushd /users/rogerruiz/eclipse-workspace/1446/src/main/java/pruebas/
+        run: cd /usr/bin/git config --global --add safe.directory /home/runner/work/1246/1246
         
       - name: Running Slenium Yujuuuu
         run: mvn exec:java  -Dexec.mainClass=test.Main
