@@ -24,6 +24,6 @@ jobs:
         run: cd /usr/bin/git/home/runner/work/1246/1246
         
       - name: Running Slenium Yujuuuu
-        run: mvn exec:java  -Dexec.mainClass=test.Main
+        run: mvn exec:java  -Dexec.mainClass=pruebas.Main
          
          
