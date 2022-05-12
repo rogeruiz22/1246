@@ -24,6 +24,6 @@ jobs:
         run: cd /users/rogerruiz/eclipse-workspace/1446/src/main/java/pruebas/
         
       - name: Running Slenium Yujuuuu
-        run: javac Main.java
+        run: mvn exec:java  -Dexec.mainClass=test.Main
          
          
